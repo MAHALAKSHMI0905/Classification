@@ -1,0 +1,36 @@
+.result-page {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #e8f5e9, #f9fbe7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.result-card {
+  background-color: white;
+  padding: 2rem 3rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+  color: #2e7d32;
+}
+
+.result-card h2 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.result-card .type,
+.result-card .confidence {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.result-card .note {
+  margin-top: 1.5rem;
+  color: #757575;
+  font-size: 0.9rem;
+}
